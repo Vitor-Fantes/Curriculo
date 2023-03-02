@@ -3,11 +3,11 @@
 }
 
 :root{
-    --primary-color: #99D1FF;
-    --secondary-color: #9FE3B6;
-    --tertiary-color: #b7ddfc;
-    --quaternary-color: #E3C79F;
-    --quinary-color: #FF9192;
+    --primary-color: ##014040;
+    --secondary-color: #02735E;
+    --tertiary-color: #03A678;
+    --quaternary-color: #F27405;
+    --quinary-color: #731702;
     --light-color: white;
     --dark-color: black;
     --grayscale: #555555;
@@ -20,8 +20,8 @@
 }
 
 .header{
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background: rgb(3,166,120);
+background: linear-gradient(90deg, var(--tertiary-color) 0%, var(--quaternary-color) 59%, var(--quinary-color) 100%);
 }
 
 .header__name{color:var(--dark-color);}
